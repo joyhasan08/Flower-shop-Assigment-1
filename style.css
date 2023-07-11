@@ -1,5 +1,50 @@
-*{
+*{  margin: 0%;
+    padding: 0%;
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 /*header section*/
+.header-title{
+    color: #272727;
+    font-size: 70px;
+    width: 708px;
+    padding-top: 190px ;
+    padding-left: 240px;
+    padding-right: 970px ;
+    padding-bottom: 32px;
+ 
+
+}
+.main-header{
+    background: rgba(229, 84, 115, 0.10);
+
+}
+.header-story{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    padding-left: 240px;
+    padding-bottom: 32px; 
+    
+    
+
+}
+.pinkBut{
+    background-color: #E55473;
+    border: none;
+    color: #FFF;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px 20px 43px;
+    margin-left: 240px ; 
+    margin-bottom: 147px;
+
+}
