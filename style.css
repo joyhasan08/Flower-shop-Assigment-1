@@ -4,19 +4,25 @@
     font-family: 'Open Sans', sans-serif;
 }
 /*header section*/
+/*
+.header-class{
+    display: flex;
+    
+}*/
 .header-title{
     color: #272727;
     font-size: 70px;
     width: 708px;
     padding-top: 190px ;
     padding-left: 240px;
-    padding-right: 970px ;
+    padding-right: 950px ;
     padding-bottom: 32px;
  
 
 }
 .main-header{
     background: rgba(229, 84, 115, 0.10);
+
 
 }
 .header-story{
@@ -34,7 +40,15 @@
     
     
 
+}/*
+.header-flower{ 
+    width: 635px;
+    height: 850px;
+    margin-top: 0px;
+    background: rgba(229, 84, 115, 0.10);
+    padding-left: 0%;   
 }
+*/
 .pinkBut{
     background-color: #E55473;
     border: none;
@@ -47,4 +61,54 @@
     margin-left: 240px ; 
     margin-bottom: 147px;
 
+}
+
+/*Our Featured Flowers*/
+.feature{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.feature-story{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 100px;
+
+}
+
+
+
+
+
+
+.flower-class{
+    display: flex;
+    gap: 24px;
+    padding-left: 240px;
+}
+.block-pink{
+    width: 464px;
+    height: 538px;  
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-align: center;
+}
+.block-blue{
+    width: 464px;
+    height: 480px;  
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(40, 127, 226, 0.15);
+    text-align: center;
+
+}
+.block-green{
+    width: 464px;
+    height: 538px;  
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(139, 223, 84, 0.15);
+    text-align: center;
 }
