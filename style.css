@@ -321,3 +321,51 @@ footer{
 
 }
 /* bonus section about us */
+.about-container{
+    width: 1900px;
+    height: 720px;
+    background-color: hsl(61, 100%, 89%);
+    
+    margin-top: 100px;
+    display: flex;
+    
+    
+
+}
+.youtube{
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 350px;
+    position: absolute;
+    border-radius: 5%;
+}
+.about-title{
+    color: #272727;
+    font-size: 70px;
+    width: 708px;
+    padding: 20px;
+    margin: 10px;
+}
+.about-story{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    padding: 20px;
+    margin: 10px;
+}
+.store{
+    width: 342px;
+    height: 396px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.about-store{
+    display: flex;
+    gap: 25px;
+    margin-top: 150px;
+
+}
+.about-col {
+   
+}
