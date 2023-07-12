@@ -77,13 +77,7 @@
     font-size: 18px;
     font-weight: 400;
     padding: 100px;
-
 }
-
-
-
-
-
 
 .flower-class{
     display: flex;
@@ -112,3 +106,32 @@
     background: rgba(139, 223, 84, 0.15);
     text-align: center;
 }
+
+/*footer*/
+footer{
+    background-color:  #111010;
+    text-align: center;
+    width: 1900px;
+    height: 449px;    
+}
+.footer-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    padding-top: 125px;
+
+}
+.footer-story{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+
+}
+.copyright{
+    color: white;
+}
+/*footer end*/
