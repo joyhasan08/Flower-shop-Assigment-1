@@ -324,7 +324,7 @@ footer{
 .about-container{
     width: 1900px;
     height: 720px;
-    background-color: hsl(61, 100%, 89%);
+
     
     margin-top: 100px;
     display: flex;
@@ -334,7 +334,7 @@ footer{
 }
 .youtube{
     width: 500px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 350px;
     position: absolute;
     border-radius: 5%;
@@ -355,17 +355,23 @@ footer{
     margin: 10px;
 }
 .store{
-    width: 342px;
-    height: 396px;
+   
     border-radius: 10px 10px 10px 10px;
+    height: 550px;
+    width: 350px;
+    margin-top: 40px;
     
 }
 .about-store{
     display: flex;
     gap: 25px;
-    margin-top: 150px;
+    margin-top: 80px;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    
 
 }
-.about-col {
-   
+.about-col{
+  
+
 }
