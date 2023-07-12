@@ -4,11 +4,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 /*header section*/
-/*
+
 .header-class{
     display: flex;
-    
-}*/
+    width: 1900px;
+    height: 850px;
+}
+.header-flower{
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
 .header-title{
     color: #272727;
     font-size: 70px;
@@ -64,11 +70,13 @@
 }
 
 /*Our Featured Flowers*/
-.feature{
+.feature-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-top: 170px;
+    padding-bottom: 0px;
 
 }
 .feature-story{
@@ -76,7 +84,8 @@
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    padding: 100px;
+    padding-top: 25px;
+    margin-bottom: 48px;
 }
 
 .flower-class{
@@ -86,7 +95,7 @@
 }
 .block-pink{
     width: 464px;
-    height: 538px;  
+    height: 480px;  
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     text-align: center;
@@ -101,10 +110,15 @@
 }
 .block-green{
     width: 464px;
-    height: 538px;  
+    height: 480px;  
     border-radius: 300px 300px 0px 0px;
     background: rgba(139, 223, 84, 0.15);
     text-align: center;
+}
+.block-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 
 /*footer*/
@@ -135,3 +149,31 @@ footer{
     color: white;
 }
 /*footer end*/
+
+/*hot deals */
+.hot-container{
+    width: 1900px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+   
+}
+.hot-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+    margin-left: 420px;
+    padding-top: 230px;
+    
+}
+.hot-story{
+    margin-left: 420px;
+    padding-top: 25px;
+}
+.singup{
+    margin-left: 200px;
+    margin-top: 32px;
+
+
+}
