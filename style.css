@@ -236,6 +236,7 @@ footer{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+     padding-top: 120px;
     
 
 }
@@ -244,5 +245,37 @@ footer{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    padding-bottom: 48px;
+
+}
+/* email bar*/
+.emailbar input {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    padding-right: 500px;
+    margin-right: 20px;
+    margin-left: 290px;
+
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.emailbar-container{
+    display: flex;
+    margin-top: 101pxpx;
+}
+.sub-but{
+    background-color: #E55473;
+    border: none;
+    color: #FFF;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px 20px 43px;
+
+
 
 }
