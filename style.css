@@ -121,7 +121,18 @@
 .block-container{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 300px;
+}
+.block{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+    margin-bottom: 128px;
+
 }
 
 /*footer*/
@@ -149,7 +160,7 @@ footer{
 
 }
 .copyright{
-    color: white;
+    color: rgba(255, 255, 255, 0.40);
 }
 /*footer end*/
 
@@ -175,7 +186,7 @@ footer{
     padding-top: 25px;
 }
 .singup{
-    margin-left: 200px;
+    margin-left: 175px;
     margin-top: 32px;
 
 
@@ -187,7 +198,7 @@ footer{
     top: 100px;
     /*pi position*/
     left: 1200px;
-    top: 1800px;
+    top: 2000px;
 
 }
 /*instagram*/
@@ -277,5 +288,34 @@ footer{
     padding: 20px 43px 20px 43px;
 
 
+
+}
+/*flower adding to feture part*/
+.flowers-1{
+    position: absolute;
+    left: 316px;
+
+    top: 1248px;
+    width: 310px;
+    height: 428px;
+
+}
+.flowers-2{
+    position: absolute;
+    left: 790px;
+    top: 1290px;
+    width: 370px;
+    height: 370px;
+
+}
+.flowers-3{
+    position: absolute;
+    
+    top: 1200px;
+    left: 1290px;
+
+    width: 314px;
+    height: 471px;
+    
 
 }
